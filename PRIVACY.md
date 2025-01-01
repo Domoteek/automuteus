@@ -1,19 +1,14 @@
-# Privacy
-AutoMuteUs takes your privacy seriously. We will *never* distribute your data to any other parties, and user data is explicitly
-not for sale or redistribution.
+# Confidentialité
+AutoMuteUs prend votre confidentialité au sérieux. Nous ne distribuerons *jamais* vos données à d'autres parties, et les données utilisateur ne sont explicitement pas à vendre ou à redistribuer.
 
-Using AutoMuteUs in your Discord server (or as a general user) falls under "Legitimate Interest" in [Article 6(1)(f) of the
-General Data Protection Regulation](https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1528874672298&uri=CELEX:02016R0679-20160504) (GDPR).
+L'utilisation d'AutoMuteUs dans votre serveur Discord (ou en tant qu'utilisateur général) relève de "l'intérêt légitime" dans [l'article 6(1)(f) du Règlement général sur la protection des données](https://eur-lex.europa.eu/legal-content/FR/TXT/?qid=1528874672298&uri=CELEX:02016R0679-20160504) (RGPD).
 
-1. We use data collection to display and aggregate statistics about what games a Discord User has played in Among Us. (`/privacy showme`)
-2. We only use the minimal amount of data/PII necessary to generate and process these statistics.
-3. Users can opt-out of data collection at any time if they don't wish for AutoMuteUs to gather this data. (`/privacy optout`)
+1. Nous utilisons la collecte de données pour afficher et agréger des statistiques sur les parties qu'un utilisateur Discord a jouées dans Among Us. (`/privacy showme`)
+2. Nous n'utilisons que la quantité minimale de données/PII nécessaire pour générer et traiter ces statistiques.
+3. Les utilisateurs peuvent se désinscrire de la collecte de données à tout moment s'ils ne souhaitent pas qu'AutoMuteUs recueille ces données. (`/privacy optout`)
 
-# What Data does AutoMuteUs collect?
-AutoMuteUs collects a very small amount of user information for statistics. Your Discord UserID, and any in-game names you have used
-are the only Personally-Identifiable Information (PII) that the bot requires to gather statistics. All other data collected by AutoMuteUs
-is non-identifiable in-game data, such as player color, crewmate/imposter role, etc. An example of a game data record recorded
-by AutoMuteUs is shown below:
+# Quelles données AutoMuteUs collecte-t-il ?
+AutoMuteUs collecte une très petite quantité d'informations utilisateur pour les statistiques. Votre UserID Discord, et tous les noms en jeu que vous avez utilisés sont les seules informations personnellement identifiables (PII) que le bot nécessite pour recueillir des statistiques. Toutes les autres données collectées par AutoMuteUs sont des données de jeu non identifiables, telles que la couleur du joueur, le rôle d'équipier/imposteur, etc. Un exemple d'enregistrement de données de jeu enregistré par AutoMuteUs est présenté ci-dessous :
 ```
 {
     "color": 11,
@@ -22,10 +17,6 @@ by AutoMuteUs is shown below:
 }
 ```
 
-AutoMuteUs uses a mapping of Discord UserIDs to arbitrary numerical IDs, which are used for correlating game events. If you
-choose to delete the data that AutoMuteUs stores about you (with `/privacy optout`), the mapping to your User ID is removed,
-and the full history of your past games is deleted. Because of this, re-opting into data collection with AutoMuteUs (`/privacy optin`) means
-your past games and game events **are not recoverable**. Please carefully consider this before opting out, if you plan to
-view your game statistics at any point in the future!
+AutoMuteUs utilise une correspondance entre les UserIDs Discord et des IDs numériques arbitraires, qui sont utilisés pour corréler les événements de jeu. Si vous choisissez de supprimer les données qu'AutoMuteUs stocke à votre sujet (avec `/privacy optout`), la correspondance avec votre User ID est supprimée, et l'historique complet de vos parties précédentes est effacé. Pour cette raison, se réinscrire à la collecte de données avec AutoMuteUs (`/privacy optin`) signifie que vos parties et événements de jeu passés **ne sont pas récupérables**. Veuillez bien considérer ceci avant de vous désinscrire, si vous prévoyez de consulter vos statistiques de jeu à un moment donné dans le futur !
 
-Questions and concerns about your Data Collection and Privacy can be addressed to gdpr@automute.us
+Les questions et préoccupations concernant votre collecte de données et votre confidentialité peuvent être adressées à gdpr@automute.us

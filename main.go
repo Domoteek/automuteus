@@ -172,7 +172,7 @@ func discordMainWrapper() error {
 		}()
 	}
 
-	log.Println("Bot is now running.  Press CTRL-C to exit.")
+	log.Println("Le bot est maintenant en cours d'exécution. Appuyez sur CTRL-C pour quitter.")
 	sc := make(chan os.Signal, 1)
 	signal.Notify(sc, syscall.SIGINT, syscall.SIGTERM, os.Interrupt)
 
